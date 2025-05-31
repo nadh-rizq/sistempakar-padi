@@ -30,7 +30,7 @@ export default function Register() {
     };
 
     const handleGoogleLogin = () => {
-        window.location.href = "http://127.0.0.1:8000/auth/redirect";
+        window.location.href = `${window.location.origin}/auth/redirect`;
     };
 
     const submit = (e) => {
@@ -247,7 +247,9 @@ export default function Register() {
                     </button>
                 </div>
                 <div className="flex justify-end">
-                    <p className="text-xs text-green mr-1">Already registered?</p>
+                    <p className="text-xs text-green mr-1">
+                        Already registered?
+                    </p>
                     <Link
                         href={route("login")}
                         className="underline text-xs text-green hover:text-choco rounded-md focus:outline-none"

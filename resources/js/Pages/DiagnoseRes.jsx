@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Head, usePage } from "@inertiajs/react";
+import { Head } from "@inertiajs/react";
 import { AnimatePresence } from "framer-motion";
 import LoadingScreen from "./ComponentWeb/LoadingScreen";
 import ResultDiagnose from "./User/ResultDiagnose";
@@ -73,7 +73,7 @@ export default function DiagnoseRes({
         return Object.keys(newErrors).length === 0;
     };
 
-    const { errors } = usePage().props;
+
 
     const handleLoginChange = (e) => {
         loginForm.setData(e.target.name, e.target.value);
@@ -161,7 +161,7 @@ export default function DiagnoseRes({
             );
         }
 
-        window.location.href = "http://127.0.0.1:8000/auth/redirect";
+        window.location.href = `${window.location.origin}/auth/redirect`;
     };
 
     useEffect(() => {

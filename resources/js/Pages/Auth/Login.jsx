@@ -30,7 +30,7 @@ export default function Login({ status, canResetPassword }) {
     };
 
     const handleGoogleLogin = () => {
-        window.location.href = "http://127.0.0.1:8000/auth/redirect";
+        window.location.href = `${window.location.origin}/auth/redirect`;
     };
 
     const submit = (e) => {
@@ -182,12 +182,14 @@ export default function Login({ status, canResetPassword }) {
                     </button>
                 </div>
                 <div className="flex justify-end">
-                    <p className="text-xs text-green mr-1">Don't Have an Account?</p>
+                    <p className="text-xs text-green mr-1">
+                        Don't Have an Account?
+                    </p>
                     <Link
                         href={route("register")}
                         className="underline text-xs text-green hover:text-choco rounded-md focus:outline-none"
                     >
-                         <strong>Sign Up</strong>
+                        <strong>Sign Up</strong>
                     </Link>
                 </div>
             </form>

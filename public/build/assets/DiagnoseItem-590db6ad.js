@@ -1,1 +1,0 @@
-import{a,j as d}from"./app-ba0260c4.js";const l=({text:e,onClick:s})=>a("span",{children:d("div",{className:"badge rounded-xl badge-lg badge-primary mt-2 mx-1",children:[e,a("button",{onClick:s,className:"ml-2 font-bold",children:"×"})]})});export{l as default};
