@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scrollbar-width: none;
+}
+
+#home {
+    background-image: url("/show/bgpadi2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.badge {
+    height: auto !important;
+    min-height: unset !important;
+    align-items: flex-start; /* optional, untuk top align jika multiline */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    color: rgb(209 213 219); /* Tailwind's text-gray-300 */
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.suggestion-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #f1f5f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 50;
+}
+
+.suggestion-list li:hover {
+    background-color: #43766c;
+    color: #f1f5f9;
+    border-radius: 0.5rem;
+}
+
+.suggestion-list li.activeSelected {
+    background-color: #43766c;
+    color: #f1f5f9;
+    border-radius: 0.5rem;
+}
+
+.suggestion-list li a {
+    display: block;
+    width: 100%;
+    padding: 0.1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease;
+}

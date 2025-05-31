@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="130.048mm" height="49.6823mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 19024.16 7267.81"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#43766C}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l19024.16 0 0 7267.81 -19024.16 -1572.72 0 -5695.09z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="-0,0 19024.16,0 19024.16,7267.81 -0,5695.09 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_1915422680672">
+    <g>
+     <image x="12992.41" y="934.9" width="4805.58" height="7065.57" xlink:href="bgpadi_Images\bgpadi_ImgID1.png"/>
+     <image x="13426.57" y="3820.6" width="2394.55" height="2512.63" xlink:href="bgpadi_Images\bgpadi_ImgID2.png"/>
+    </g>
+   </g>
+  </g>
+  <polygon class="fil1" points="-0,0 19024.16,0 19024.16,7267.81 -0,5695.09 "/>
+ </g>
+</svg>
